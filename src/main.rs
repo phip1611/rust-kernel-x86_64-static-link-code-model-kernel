@@ -16,7 +16,6 @@ fn entry_rust() -> ! {
     loop {}
 }
 
-
 // see https://docs.rust-embedded.org/embedonomicon/smallest-no-std.html
 #[lang = "eh_personality"]
 extern "C" fn eh_personality() {}

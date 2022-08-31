@@ -13,6 +13,11 @@
 
     # Entry referenced by the ELF file
     entry_asm:
+        nop
+        nop
+        nop
+        movabs r15, 0xdeadbeef
+        jmp entry_rust
         ud2
 
 # section must be resetted according to rust doc
