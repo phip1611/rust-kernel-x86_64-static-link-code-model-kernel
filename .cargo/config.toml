@@ -1,0 +1,7 @@
+[build]
+# built-in compiler target of rustc
+target = "x86_64-unknown-none"
+
+# Unused as we have to provide them via an environmental variable. Build doesn't work if we
+# only specifcy them here.
+# rustflags = []
